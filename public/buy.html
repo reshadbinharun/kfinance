@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> KFinance: Build Portfolio</title>
+		<meta charset = "utf-8" />
+		<meta name = "viewport" content = "initial-scale=1.0, user-scalable=no" />
+		<link rel="stylesheet" href="style.css" type="text/css" />
+	</head>
+	<body>
+		<img id = "logo" src = "k_f.png" alt = "logo"/>
+		<form method="post" action="/buy" >
+		  	<p>What Stock do you want to buy?</p>
+		  	<p>Please use stock ticker symbols inf format such as AAPL </p><br>
+		  <input type="text" name="stock">
+		  <p>How many shares do you want to buy? Insert a positive number to buy, and a negative number to sell.</p>
+		  <input type="number" name="count">
+		  <input type="submit""></input>
+		</form>
+	</body>
+</html>

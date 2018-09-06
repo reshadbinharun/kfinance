@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> KFinance: Komb </title>
+		<meta charset = "utf-8" />
+		<meta name = "viewport" content = "initial-scale=1.0, user-scalable=no" />
+		<link rel="stylesheet" href="style.css" type="text/css" />
+	</head>
+	<body>
+		<img id = "logo" src = "k_f.png" alt = "logo"/><br>
+		<p> Komb allows you to input a stock ticker symbol, and retrieve the company's perfomance over the past two years. Additionally, Komb will calculate for you EPS, ROA, and Current ratio for the company from 2 years ago.</p><br>
+		<p> The idea is that if you have a successful company in mind, you can get what financial metrics for the company looked like from 2 years ago. (You are also provided the company's trajectory over the last 2 years to confirm your insights on the company.)</p><br>
+		<p> You can then use these metrics to find the next company that will perform like this company!. Go ahead... Give it a try. Make sure you use a ticker symbol in the format such as AMZN.</p><br>
+		<form method="post" action="/komb" >
+		  	<p>What stock are you Konsidering?</p>
+		  <input type="text" name="stock">
+		  <input type="submit""></input>
+		</form>
+	</body>
+</html>
